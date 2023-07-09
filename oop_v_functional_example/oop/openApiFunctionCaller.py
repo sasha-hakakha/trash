@@ -3,7 +3,7 @@ import openai
 
 class OpenApiFunctionCaller:
     def __init__(self, model="gpt-4-0613", api_key_path="key.txt"):
-        openai_api_key ="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"  # Replace with your OpenAI API key
+        openai_api_str ="yeet"
 
         openai.api_key = openai_api_key
         self.model = model
